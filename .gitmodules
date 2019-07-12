@@ -1,0 +1,3 @@
+[submodule "src/vue-common"]
+	path = src/vue-common
+	url = git://github.com/hyunwoo/vue-common.git

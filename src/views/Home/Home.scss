@@ -1,0 +1,34 @@
+.left-configure {
+  width: 203px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+
+  .configure-element {
+    border-bottom: 1px solid #ddd;
+    padding: 10px 15px;
+  }
+  // .v-text-field {
+  //   border: 1px solid #aaa;
+  //   border-radius: 4px;
+  // }
+  // .displayed-count {
+  //   font
+  // }
+  svg {
+    border: 1px solid #ddd;
+  }
+  .icon-button {
+    border: 1px solid #aaa;
+    border-radius: 0;
+    &::before {
+      border-radius: 0;
+    }
+  }
+}
+
+.image-container {
+  margin: 0 8px 8px;
+  border: solid 1px #aaa;
+  border-radius: 4px;
+  overflow: hidden;
+}
